@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ALGORITHM Scheduling</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="Bg.mp4" type="video/mp4" />
+  </video>
+
+  <nav class="navbar">
+    <div class="nav-logo"><a href="#">ALGORITHM Scheduling</a></div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="https://pathik455.github.io/FCFS/" target="_blank">FCFS</a></li>
+      <li><a href="https://pathik455.github.io/SJF/" target="_blank">SJF</a></li>
+      <li><a href="https://pathik455.github.io/SRTF/" target="_blank">SRTF</a></li>
+      <li><a href="https://pathik455.github.io/Priority/" target="_blank">Priority</a></li>
+    </ul>
+  </nav>
+
+  <div class="card-container">
+    <div class="card highlight">
+      <h2>01</h2>
+      <h3>FCFS</h3>
+      <p>First Come First Served (FCFS) is the simplest non-preemptive scheduling algorithm. It allocates the CPU in the order of arrival.</p>
+      <div class="btn-group">
+        <a href="https://www.geeksforgeeks.org/program-for-fcfs-cpu-scheduling-set-1/" target="_blank">Read More</a>
+        <a href="https://pathik455.github.io/FCFS/" target="_blank">Demo</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>02</h2>
+      <h3>SJF</h3>
+      <p>Shortest Job First (SJF) selects the process with the smallest execution time. It may preempt current tasks if a shorter job arrives.</p>
+      <div class="btn-group">
+        <a href="https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/" target="_blank">Read More</a>
+        <a href="https://pathik455.github.io/SJF/" target="_blank">Demo</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>03</h2>
+      <h3>SRTF</h3>
+      <p>Shortest Remaining Time First (SRTF) is a preemptive version of SJF that executes the process with the least remaining time.</p>
+      <div class="btn-group">
+        <a href="https://www.geeksforgeeks.org/introduction-of-shortest-remaining-time-first-srtf-algorithm/" target="_blank">Read More</a>
+        <a href="https://pathik455.github.io/SRTF/" target="_blank">Demo</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>04</h2>
+      <h3>Priority</h3>
+      <p>Priority scheduling selects tasks based on their priority level. Higher-priority processes are executed before lower ones.</p>
+      <div class="btn-group">
+        <a href="https://www.geeksforgeeks.org/priority-cpu-scheduling-with-different-arrival-time-set-2/" target="_blank">Read More</a>
+        <a href="https://pathik455.github.io/Priority/" target="_blank">Demo</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
